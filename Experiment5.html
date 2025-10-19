@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <center><h1><b>Student Registration Form</b></h1></center>
+<form>
+   Enter the student's name here:<br>
+    <label for="name">First name:</label>
+    <input type="text" id="name" name="name" required></input>
+    <label for="name2">Last name:</label>
+    <input type="text" id="name2" name="name2"></input><br><br>
+    <label for="pass">Password</label>
+    <input type="text" id="pass" name="pass" placeholder="Enter your Password"></input><br><br>
+    Gender:
+    <input type="radio" id="male" name="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gen">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="other">
+    <label for="other">other</label>
+    <br><br>
+    Address:<br>
+    <textarea name="address" rows="5" cols="80" placeholder="Enter your full address with pincode here:"></textarea><br><br>
+    <label for="aadhar">Upload your aadhar card here:</label>
+    <input type="file" id="aadhar" name="aadhar" placeholder="upload your file here"></input><br><br>
+    <label for="email">Email address:</label>
+    <input type="text" placeholder="example@email.com" id="email" name="email" required><br><br>
+    <label for="phone">Phone number:</label>
+    <input type="text" id="phone" name="phone"><br><br>
+    <label for="rel">Religion</label>
+    <select id="rel" name="religion" placeholder="select your religion">
+        <option value="none">None</option>
+        <option value="hindu">Hindu</option>
+        <option value="muslim">Muslim</option>
+        <option value="christian">Christian</option>
+        <option value="sikh">Sikh</option>
+    </select><br><br>
+    Choose your mode of payment:
+    <input type="checkbox" id="cash" name="cash">
+    <label for="cash">Cash</label>
+    <input type="checkbox" id="card" name="card">
+    <label for="card">Card</label>
+    <input type="checkbox" id="upi" name="upi">
+    <label for="upi">UPI</label>
+    <br>
+    Upload your Reciept here:
+    <input type="file" id="reciept" name="reciept"><br><br>
+    Creative corner:<br>
+    <textarea name="about" placeholder="write a short paragraph to describe yourself" rows="5" cols="80"></textarea><br><br>
+    Additional documents upload:<br>
+    <label for="10mark">10th Marksheet</label>
+    <input type="file" id="10th marksheet" name="10mark"><br>
+    <label for="12mark">12th Marksheet</label>
+    <input type="file" id="12mark" name="12mark">
+    <input type="button" id="btn" value="submit">
+
+</form>   
+</body>
+</html>
